@@ -9,14 +9,19 @@
 </head>
 <body>
 
-<div class="container">
-	<h1><img src="CydiaIcon.png"> Logandev_</h1>
+<div class="container" style="text-align: center">
+	<h1 id="logandev">Logandev_</h1><br>
+  <img src="large.jpg" id="pic" style="height: auto;"><br><br>
 </div>
+
+<script>
+document.getElementById("pic").width = document.getElementById("logandev").clientWidth/4.5
+</script>
 
 <div class="container">
 	<div class="well">
 		<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://LoganMD.github.io/repo/">Add to Cydia</a>
-    <p><span class="text-primary"><br>Other cool repos</p>
+    <p><br>Other cool repos</p>
     <a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.nepeta.me/">Nepeta</a>
     <a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=http://skitty.xyz/repo/">Skitty (required for Logandev Dark)</a>
 	</div>
