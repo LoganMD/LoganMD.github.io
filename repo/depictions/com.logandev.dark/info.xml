@@ -1,7 +1,7 @@
 <package>
 	<id>com.logandev.dark</id>
 	<name>Logandev Dark</name>
-	<version>1.3</version>
+	<version>1.4</version>
 	<compatibility>
 		<firmware>
 			<maxiOS>12.4</maxiOS>
@@ -17,7 +17,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>More icons</change>
+		<change>Gave the package a logo.</change>
 	</changelog>
 	<links></links>
 </package>
